@@ -1,4 +1,4 @@
-import 'Point.dart'; // Importa la definición de la clase 'Point' desde Point.dart
+import 'punto.dart'; // Importa la definición de la clase 'Point' desde Point.dart
 
 // Definición de la clase 'Rectangle' que representa un rectángulo en un plano 2D
 class Rectangle {
@@ -9,7 +9,8 @@ class Rectangle {
 
   // Constructor constante que inicializa el rectángulo
   const Rectangle({
-    this.origin = const Point(0, 0), // Origen predeterminado en (0, 0) si no se proporciona
+    this.origin = const Point(
+        0, 0), // Origen predeterminado en (0, 0) si no se proporciona
     this.width = 0, // Ancho predeterminado como 0 si no se proporciona
     this.height = 0, // Alto predeterminado como 0 si no se proporciona
   });
